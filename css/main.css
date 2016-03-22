@@ -6,9 +6,6 @@
   margin: 0;
   padding: 0;
 }
-p {
-    margin-bottom: .7em;
-}
 
 .contact{
   background: grey;
@@ -127,7 +124,7 @@ nav a:focus{
 }
 
 #subquote{
-  top: 540%;
+  top: 440%;
   left: 2%;
   text-transform: capitalize;
   font-style: italic;
@@ -172,7 +169,7 @@ nav a:focus{
   width: 33%;
 }
 
-.row > h2{
+.row > h2, p{
   text-align: center;
   padding: .75em;
   font-family: 'Libre Baskerville', serif;
@@ -182,14 +179,15 @@ nav a:focus{
   padding: .5em;
 }
 
-.row > .material-icons{
+.row .material-icons{
   margin: 0 auto;
-  background: coral;
+  background: #90A4AE;
   border-radius: 50%;
   padding: .5em;
   font-size: 30px;
   color: white;
 }
+
 .footer-container {
   width: 80%;
   max-width: 1100px;
