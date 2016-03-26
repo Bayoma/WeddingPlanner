@@ -180,6 +180,7 @@ nav a:focus{
 }
 
 .row .material-icons{
+  display: table;
   margin: 0 auto;
   background: #90A4AE;
   border-radius: 50%;
